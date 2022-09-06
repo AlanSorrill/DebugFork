@@ -1,14 +1,16 @@
 {
-  "name": "nodeinspector",
-  "version": "1.0.0",
+  "name": "debug-fork",
+  "version": "1.0.1",
   "description": "",
   "main": "build/index.ts",
   "types": "declarations/index.d.ts",
+  "repository": {"url": "https://github.com/AlanSorrill/DebugFork"},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Alan Sorrill",
+  "license": "MIT",
   "dependencies": {
     "@types/ws": "^8.5.3",
     "ws": "^8.8.1"
